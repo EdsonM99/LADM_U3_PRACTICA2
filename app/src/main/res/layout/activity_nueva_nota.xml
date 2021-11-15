@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".ActivityNuevaNota">
+
+    <EditText
+        android:id="@+id/campoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo"
+        android:textSize="23sp"/>
+
+    <EditText
+        android:id="@+id/campoDescripcion"
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:hint="Descripcion"
+        android:gravity="top|left"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/Crear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear"/>
+
+    <Button
+        android:id="@+id/Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"/>
+
+</LinearLayout>
